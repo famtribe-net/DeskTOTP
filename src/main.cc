@@ -27,7 +27,7 @@
 namespace {
 
 constexpr const char* APPLICATION = "totp-cli";
-constexpr const char* SCHEMA_NAME = "org.famtribe.totp";
+constexpr const char* SCHEMA_NAME = "net.famtribe.totp";
 
 constexpr const char* INDEX_ACCOUNT = "__accounts__";
 
