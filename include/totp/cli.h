@@ -2,6 +2,6 @@
 
 namespace cli {
 
-int run(int argc, char* argv[]);
+int run(int argc, char *argv[]);
 
 } // namespace cli
