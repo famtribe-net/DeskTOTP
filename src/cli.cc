@@ -59,10 +59,10 @@ void show_code(const std::string &account, bool watch, bool plain) {
     const auto result = totp::generate(secret);
 
     if (plain)
-      std::cout << '\r' << result.code << "       " << std::flush;
+      std::cout << '\r' << result.code << "       \n" << std::flush;
     else
       std::cout << '\r' << account << ": " << result.code << "  (" << result.remaining_seconds
-                << "s remaining)   " << std::flush;
+                << "s remaining)   \n" << std::flush;
 
     if (!watch)
       break;
